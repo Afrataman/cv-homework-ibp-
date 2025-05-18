@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>:root {
+    --primary: #2c3e50;
+    --accent: #3498db;
+    --background: #ecf0f1;
+    --card-bg: #ffffff;
+    --text: #2c3e50;
+    --shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--background);
+    color: var(--text);
+}
+
+header {
+    background: linear-gradient(135deg, var(--accent), var(--primary));
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 20px var(--shadow);
+}
+
+.profile-image img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 0 4px 10px var(--shadow);
+}
+
+.title h1 {
+    margin: 20px 0 10px;
+    font-size: 2.8em;
+}
+
+.title h2 {
+    font-size: 1.4em;
+    font-weight: 400;
+    opacity: 0.9;
+    font-style: italic;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+}
+
+section {
+    background: var(--card-bg);
+    padding: 25px 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px var(--shadow);
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: var(--accent);
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 8px;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+p, li {
+    font-size: 1.05em;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    background: var(--primary);
+    color: white;
+    padding: 20px 10px;
+    font-size: 0.9em;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .profile-image img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .title h1 {
+        font-size: 2em;
+    }
+
+    .title h2 {
+        font-size: 1.1em;
+    }
+}</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afra Ataman</title>
+    <link rel="icon" href="favicon2.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <div class="profile-image">
+            <img src="picture.jpg" alt="Profile Picture">
+        </div>
+        <div class="title">
+            <h1>AFRA ATAMAN</h1>
+            <h2>Computer Engineering Student</h2>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section id="contact">
+                <h2>Contact Information</h2>
+                <p><strong>City:</strong> Bilecik</p>
+                <p><strong>Email:</strong> 22102130380@ogrenci.karabuk.edu.tr</p>
+                <p><strong>Phone:</strong> +90 537 797 29 19</p>
+            </section>
+
+            <section id="summary">
+                <h2>My Information</h2>
+                <p>
+                    Hello! I'm Afra Ataman, a sophomore student in Computer Engineering at Karabük University. As a passionate programmer, I have extensive knowledge in C, Python, and Java. I excel in algorithm development and project management. My career goals include continuous learning and self-improvement. I aim to solve problems and create innovative projects using technology.
+                </p>
+            </section>
+
+            <section id="education">
+                <h2>Education Information</h2>
+                <ul>
+                    <li>Bilecik Anadolu High School (2017–2021)</li>
+                    <li>Karabük University - Computer Engineering (2022–Present)</li>
+                </ul>
+            </section>
+
+            <section id="personal">
+                <h2>Personal Information</h2>
+                <ul>
+                    <li>Birth Date: 2003</li>
+                    <li>Driving License: B</li>
+                    <li>Foreign Language: English (B2)</li>
+                </ul>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>C</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+            </section>
+
+            <section id="certificates">
+                <h2>Certificates</h2>
+                <ul>
+                    <li>Excel</li>
+                    <li>B2 Level English</li>
+                    <li>Basic Computer Training</li>
+                    <li>Python</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>Calculator (C)</li>
+                    <li>University Staff Information System (Java)</li>
+                    <li>Student ID Sorter (C)</li>
+                    <li>ATM (Python)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 Afra Ataman</p>
+    </footer>
+</body>
+</html>
